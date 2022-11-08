@@ -1,6 +1,6 @@
 Hall-effect foot expression pedal
 
-Niels Erik Raursø
+Niels
 Prototyping and Fabrication Techniques
 November 2022
 
@@ -34,14 +34,10 @@ Illustrator have been used for all laser cutting and most design.
 
 ## Related work
 
-As Physical Interface Design course mini-project, the idea was originally pursued with the hacking of a Roland EV-5 pedal. This leveraged the exisiting pinion and rack gear design.
+As Physical Interface Design course mini-project, the idea was originally pursued with the hacking of a Roland EV-5 pedal. This leveraged the existing pinion and rack gear design.
 
 Other related work include design implemented as part of a shoe.
-
-There's also a lot of research on pedals used in the medical industry.
-I've found little to no foot pedal ergonomic for music pedals.
-
-
+See Konovalovs, K., Zovnercuka, J., Adjorlu, A., & Overholt, D. (2017, May). A wearable foot-mounted/instrument-mounted effect controller: Design and evaluation. In New Interfaces for Musical Expression 2017 (pp. 354-357). NIME.
 
 ## Design process
 
@@ -64,7 +60,7 @@ Various wheels were considered and designed for, from the tiny and flimsy, to th
 
 There's some downsides to this design however. The sturdiest wheel (while not being too massive), still could get bent out of shape. Furthermore, it was found hard to implement a physical barrier at the extremes of pedal positions. With this design, it would need to be implemented as part of the wheel, as to still provide a limit when rotating on the two axes.
 
-The various wheel designs, and difficultity cutting accurate parts to fit, resulted in this design being abondaded.
+The various wheel designs, and difficulty cutting accurate parts to fit, resulted in this design being abandoned.
 
 ![](https://i.imgur.com/GuTaZHk.jpg)
 ![](https://i.imgur.com/dGFqr98.jpg)
@@ -107,27 +103,23 @@ Cons:
 * Introduces more varied and noisy Hall effect sensor data that requires futher attention.
 * Scratches the surface.
 
-## Visual identity
+## Visual identity / Design Aesthetic
 
-Many the effect pedals and pedal boards consist of black plastic, metal, and rubber parts. For good and bad, this produces products with the a sleek aesthetic of mass producable  tanks.
+Many the effect pedals and pedal boards consist of black plastic, metal, and rubber parts. For good and bad, this produces products with the a sleek aesthetic of mass manufactured tanks.
 
 Limited to the possibilities at hand (i.e., no metal work), a more old school ornamented look was opted for.
 
-A dark solid wood tabletop were used main enclosure. Glued and stacked wooden rectangles form the backside. Acryllic panels (featuring ornaments )
+A dark solid wood tabletop were used main enclosure. Glued and stacked wooden rectangles form the backside. Acryllic panels featuring ornaments and holes form the sides.
 
 All ornamentation is taken from:
 Jablan, S. V. (2002). _Symmetry, ornament and modularity_ (Vol. 30). World Scientific.
 
 
-
-In order to
-
-Patterns
 #### Pedal Grip Design
 
 The top part of the pedal requires friction-promoting design in order to avoid slippage.
 
-Inspired by Nature, a design insipired by the friction ridges of our fingers.
+The design is inspired by the friction ridges of our fingers.
 
 Various ways were considered, and the most straightforward was chosen. While real fingerprints would potentially be the visually most interesting, it is also a bit of a time-consuming task to get a good print, and clean up the images and vectors. Means of generating synthetic fingerprints (1)[Biometric System Laboratory](http://biolab.csr.unibo.it/research.asp?organize=Activities&select=&selObj=12&pathSubj=111%7C%7C12&), (2)[[Anguli](https://dsl.cds.iisc.ac.in/projects/Anguli/userguide.html)] were considered, however a more simple solution were choosen [Shader - Shadertoy BETA](https://www.shadertoy.com/view/4t3SWN)
 
@@ -185,18 +177,13 @@ A merge between the last two design iterations could potentially serve the best 
 
 - I should've documented various prototypes with video/pictures - successes, and failures.
 - Used Fusion 360 more. Because of the initial wheel designs, which were more work to sufficiently replicate in 3D. Fusion 360 could be used for future The simplified design would benefit
+
+---
+
 "Gears" / Positions
 Tape - Force
 OLED display (for visual feedback on timing)
 Conversion from Line-level to instrument-level & vice versa. Bypassing the need to a preamp/reamper/DI-box.
-
-Pedal -> pedal board
-
-TODO's
-- [ ] Add 0,1 µ farad ceramic resistors between VCC and Ground on Hall Effect Sensors.
-- [ ]
-
-Discussion
 
 
 ---
