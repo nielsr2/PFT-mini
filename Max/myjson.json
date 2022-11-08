@@ -1,0 +1,20 @@
+{
+	"components": {
+		"sw1": {
+			"component": "Switch",
+			"pin": 15
+		},
+    "knob1": {
+      "component": "AnalogControl",
+      "pin": 21
+    },
+		"knob2": {
+      "component": "AnalogControl",
+      "pin": 18
+    },
+    "led1": {
+            "component": "Led",
+            "pin": 10
+        }
+	}
+}
